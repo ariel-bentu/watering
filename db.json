@@ -1,0 +1,39 @@
+{
+  "programs": [
+   {
+     "name" : "normal",
+     "enabled":true,
+     "valves": [
+       {
+          "ID":1,
+		  "name":"Boosh - recycled water",
+		  "dependentValvesIDs":[3],
+          "sessions": [
+            {
+              "name":"",
+              "schedule": {"weekDays":"0", "hour":8, "minute":11, "duration":1},
+              "enabled":true
+            }
+            ]
+       
+         
+       },
+      {
+          "ID":2,
+		  "name": "Grass West",
+          "sessions": [
+            {
+              "name":"",
+              "schedule": {"weekDays":"1", "hour":12, "minute":10, "duration":50},
+              "enabled":true
+            }
+            ]
+       
+         
+       }   
+      ]
+    
+   }
+    
+  ]
+}
